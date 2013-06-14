@@ -13,7 +13,7 @@ function LoginConectar (U, P)
 			alert("usuario incorrecto");}
 			else
 			{
-				var OUsuario=jQuery.pareseJSON(msg);
+				var OUsuario=jQuery.parseJSON(msg);
 				ID_Usuario=OUsuario.Usuario;
 				alert("Bienvenido "+ID_Usuario);
 				location.href="#Busqueda";
@@ -23,6 +23,7 @@ function LoginConectar (U, P)
 	$(document).ready(function(e){
 		document.addEventListener("deviceready",function(){
 			$('.Enviar').tap(function(){
+				alert("si entra")
 				var formulario=$(this).parents('form');
 				var usuario=document.getElementById('Usuario').value;
 				var password=document.getElementById('Password').value;
