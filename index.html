@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  
+  <!-- Extra Codiqa features -->
+  <link rel="stylesheet" href="codiqa.ext.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+  <!-- Extra Codiqa features -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
+   
+</head>
+<body>
+<!-- Home -->
+<form name="Login">
+<div data-role="page" id="page1">
+    <div data-theme="e" data-role="header">
+        <h3>
+            LOGIN
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <input name="Usuario" id="Usuario" placeholder="Usuario" value="" type="text"
+            data-mini="true">
+        </div>
+        <div data-role="fieldcontain">
+            <p>
+              <input name="Password" id="Password" placeholder="Password" value="" type="password"
+            data-mini="true">
+            </p>
+        </div>
+        <input id="Entrar" class="Enviar" type="submit" data-inline="true" data-theme="e" data-icon="check"
+        data-iconpos="right" value="Entrar" data-mini="true">
+    </div>
+    </div>
+</form>
+<!-- Home -->
+<form name="busqueda">
+<div data-role="page" id="page1">
+    <div data-theme="a" data-role="header">
+        <h3>
+            BUSQUEDA
+        </h3>
+        <div data-role="fieldcontain">
+            <input name="" id="searchinput1" placeholder="Titulo del Libro" value=""
+            type="search" data-mini="true">
+        </div>
+        <input type="submit" data-inline="true" data-theme="e" data-icon="search"
+        data-iconpos="left" value="Buscar" data-mini="true" class="Busqueda">
+    </div>
+    <div data-role="content"></div>
+    <div data-theme="e" data-role="footer" data-position="fixed">
+        <h3>
+            www.codiga.com
+        </h3>
+    </div>
+</div>
+</form>
+</body>
+</html>
